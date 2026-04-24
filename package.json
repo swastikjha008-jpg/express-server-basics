@@ -1,22 +1,20 @@
 {
   "name": "auth-api-node",
   "version": "1.0.0",
-  "description": "Beginner auth API using Express, bcrypt, and JWT",
-  "main": "server.js",
+  "description": "Simple Auth API using Express",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "Swastik",
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "bcrypt": "^6.0.0",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3"
+    "express": "^4.21.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.0"
   }
 }
